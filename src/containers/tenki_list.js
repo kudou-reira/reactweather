@@ -46,7 +46,7 @@ class TenkiList extends React.Component {
             
             
             <table className = "table table-hover">
-                <tbody>
+                
                 <h3 className = "gap center">Red dotted line means average!</h3>
                 <thead>
                     
@@ -58,7 +58,7 @@ class TenkiList extends React.Component {
                     </tr>
             
                 </thead>
-                </tbody>
+            
                 <tbody>
                     {this.props.weather.map(this.showWeather)}
                 </tbody>
