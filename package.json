@@ -9,8 +9,6 @@
     "postinstall": "webpack -p",
     "start": "node server.js"
   },
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "axios": "^0.16.1",
     "babel-core": "^6.2.1",
@@ -23,7 +21,7 @@
     "webpack-dev-server": "^1.14.0"
   },
   "dependencies": {
-    
+
     "axios": "^0.16.1",
     "babel-core": "^6.2.1",
     "babel-loader": "^6.2.0",
